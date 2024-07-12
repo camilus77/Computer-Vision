@@ -1,0 +1,4 @@
+venv
+.idea
+Notebooks/.ipynb_checkpoints
+Output
