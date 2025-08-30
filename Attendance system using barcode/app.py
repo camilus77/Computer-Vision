@@ -1,11 +1,14 @@
 # app.py
 import time
-import cv2
 import numpy as np
 import datetime as dt
+import cv2
+
 from pathlib import Path
 from pyzbar.pyzbar import decode
 import streamlit as st
+from streamlit_option_menu import option_menu
+
 
 # -----------------------
 # App config & constants
