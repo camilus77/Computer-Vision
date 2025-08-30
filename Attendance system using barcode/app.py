@@ -6,6 +6,8 @@ import datetime as dt
 from pathlib import Path
 from pyzbar.pyzbar import decode
 import streamlit as st
+from streamlit_option_menu import option_menu
+
 
 # -----------------------
 # App config & constants
