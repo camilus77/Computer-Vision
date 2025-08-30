@@ -1,5 +1,6 @@
 # app.py
 import time
+import cv2
 import numpy as np
 import datetime as dt
 from pathlib import Path
