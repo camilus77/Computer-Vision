@@ -1,8 +1,9 @@
 # app.py
-import cv2
 import time
 import numpy as np
 import datetime as dt
+import cv2
+
 from pathlib import Path
 from pyzbar.pyzbar import decode
 import streamlit as st
