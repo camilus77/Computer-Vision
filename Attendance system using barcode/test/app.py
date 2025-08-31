@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import time
 import streamlit as st
 import cv2
