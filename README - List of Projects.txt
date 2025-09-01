@@ -10,3 +10,6 @@
 
 4. DETECTRON2 - MICROORGANISM ZONES AND INHIBITIONS -OBJECT DETECTION AND SEGMENTATION
  * Uses the detectron2 model to classify microbe cells zones and inhibitions in a lab culture. 
+
+5. Attendance system using barcode
+* uses barcode to automate acccess
