@@ -1,0 +1,6 @@
+path: C:\Users\ben4s\Downloads\Dataset_BUSI_with_GT\malignant
+train: images/train 
+val: images/val  
+
+nc: 1
+names: ['Cancer']
