@@ -13,7 +13,7 @@ from tensorflow.keras.preprocessing import image
 # -------------------------
 # Page setup & styling
 # -------------------------
-st.set_page_config(page_title="Skin Lesion Classifier (Demo)", page_icon="🩺", layout="wide")
+st.set_page_config(page_title="Skin Lesion Classifier", page_icon="🩺", layout="wide")
 st.markdown("""
 <style>
 /* Clean, card-like containers */
@@ -27,7 +27,7 @@ footer {visibility: hidden;}
 """, unsafe_allow_html=True)
 
 st.title("🩺 Skin Lesion Classification — Demo App")
-st.caption("This wraps your exact prediction code and model. **Not medical advice.**")
+st.caption("This is a transparent prediction of your skin disease. **Not medical advice.**")
 
 # -------------------------
 # Your original mapping (unchanged)
@@ -118,7 +118,7 @@ with c1:
     st.subheader("📷 Input")
     if input_image is None:
         st.info("Upload an image or provide a local path from the sidebar to run a prediction.")
-        st.image("https://images.unsplash.com/photo-1516637090014-cb1ab0d08fc7?q=80&w=800&auto=format&fit=crop", caption="Placeholder", use_container_width=True)
+        st.image("https://images.unsplash.com/photo-1516637090014-cb1ab0d08fc7?q=80&w=800&auto=format&fit=crop", use_container_width=True)
     else:
         st.caption(src_note or "")
         st.image(input_image, caption="Input image", use_container_width=True)
@@ -165,8 +165,7 @@ with c2:
 # -------------------------
 st.markdown("---")
 st.warning(
-    "This demo wraps your exact evaluation logic (image resized to **(75,100)**, "
-    "per-image mean/std normalisation, and class mapping) using your saved model. "
+    "This is a demo. "
     "**It is not a medical device and must not be used for diagnosis or treatment.**"
 )
 
