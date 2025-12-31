@@ -13,3 +13,15 @@
 
 5. Attendance system using barcode
 * uses barcode to automate acccess
+
+6. Face recognition attendance system
+
+7. Image classification using pytorch
+6. Image classification using tensorflow
+7. Skin disease classification using tensorflow
+8. Skin disease classificaion using pytorch
+9. Text detector from pictures
+10. YOlo-brain tumor detection
+11. Yolo-breast cancer segmentation
+12. Yolo-object detection - Traffic Monitor
+13. Yolo-object detection - dogs in images
