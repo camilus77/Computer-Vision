@@ -1,5 +1,8 @@
+Microbes zones and inhibitions detection and segmentation using Detectron 2
+*In this project, microbe zones are detected using the Detectron deep learning model.
+
 Face Detection Attendance system
-*In this project, an attendance system  designed to recognise and log in real time
+*In this project, an attendance system  designed to recognise and log in real time.
 
 Attendance system using Bar Codes
 * In this project, an attendance system designed to recongnise and admit for entry using bar code as entry evidence.
